@@ -1,0 +1,63 @@
+﻿<Window x:Class="FlashcardsMVP.Views.MyFlashcards"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlashcardsMVP.Services"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="MyFlashcards" Height="450" Width="800">
+
+    <Window.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <!-- Width for the ListBox -->
+            <ColumnDefinition Width="*"/>
+            <!-- Remaining space for the detailed view -->
+        </Grid.ColumnDefinitions>
+
+        <!-- ListBox to show decks -->
+        <ListBox Name="DeckListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                 ItemsSource="{Binding Decks}" SelectedItem="{Binding SelectedDeck}" Visibility="{Binding DecksVisibility}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                        <TextBlock Foreground="Gray" Text="{Binding NumberOfCards, StringFormat='Cards: {0}'}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- No Decks Found message -->
+        <TextBlock Text="No Decks Found" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="18" FontWeight="Bold" Foreground="Gray"
+                   Visibility="{Binding NoDecksFound, Converter={StaticResource BoolToVisibilityConverter}, FallbackValue=Visible}"
+                   Grid.ColumnSpan="2"/>
+
+        <!-- Detailed deck information (only visible when a deck is selected) -->
+        <StackPanel Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Grid.Column="1" Margin="10">
+            <TextBlock Text="{Binding SelectedDeck.Name}" FontWeight="Bold"/>
+            <TextBlock Text="{Binding SelectedDeck.NumberOfCards, StringFormat='Cards: {0}'}" Foreground="Gray"/>
+
+            <!-- ScrollViewer to enable scrolling if there are too many flashcards -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="300">
+                <ListBox ItemsSource="{Binding SelectedDeck.Cards}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Front}" />
+                                <TextBlock Text="{Binding Back}" Foreground="Gray"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,1613 @@
+[2024-12-18 00:05:59] Log Cleaned
+[2024-12-18 00:05:59] LoadDecksAsync started
+[2024-12-18 00:05:59] Task.Run started
+[2024-12-18 00:05:59] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:05:59] Deck loaded: demo Test
+[2024-12-18 00:05:59] Deck loaded: Sample Deck
+[2024-12-18 00:05:59] Task.Run completed
+[2024-12-18 00:05:59] Before Dispatcher.Invoke
+[2024-12-18 00:05:59] Added deck to Decks: demo Test
+[2024-12-18 00:05:59] Added deck to Decks: Sample Deck
+[2024-12-18 00:05:59] NoDecksFound updated to: False
+[2024-12-18 00:05:59] LoadDecksAsync completed
+[2024-12-18 00:06:05] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a.fcs
+[2024-12-18 00:06:05] LoadDecksAsync started
+[2024-12-18 00:06:05] Task.Run started
+[2024-12-18 00:06:05] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:05] Deck loaded: demo Test
+[2024-12-18 00:06:05] Deck loaded: Sample Deck
+[2024-12-18 00:06:05] Task.Run completed
+[2024-12-18 00:06:05] Before Dispatcher.Invoke
+[2024-12-18 00:06:05] Added deck to Decks: demo Test
+[2024-12-18 00:06:05] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:05] NoDecksFound updated to: False
+[2024-12-18 00:06:05] LoadDecksAsync completed
+[2024-12-18 00:06:15] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy.fcs
+[2024-12-18 00:06:15] LoadDecksAsync started
+[2024-12-18 00:06:15] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy.fcs
+[2024-12-18 00:06:15] Task.Run started
+[2024-12-18 00:06:15] LoadDecksAsync started
+[2024-12-18 00:06:15] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:15] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy.fcs
+[2024-12-18 00:06:15] Task.Run started
+[2024-12-18 00:06:15] LoadDecksAsync started
+[2024-12-18 00:06:15] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:15] Task.Run started
+[2024-12-18 00:06:15] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Deck loaded: Sample Deck
+[2024-12-18 00:06:15] Deck loaded: Sample Deck
+[2024-12-18 00:06:15] Deck loaded: demo Test
+[2024-12-18 00:06:15] Task.Run completed
+[2024-12-18 00:06:15] Before Dispatcher.Invoke
+[2024-12-18 00:06:15] Deck loaded: Sample Deck
+[2024-12-18 00:06:15] Task.Run completed
+[2024-12-18 00:06:15] Before Dispatcher.Invoke
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:15] NoDecksFound updated to: False
+[2024-12-18 00:06:15] LoadDecksAsync completed
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:15] NoDecksFound updated to: False
+[2024-12-18 00:06:15] LoadDecksAsync completed
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: demo Test
+[2024-12-18 00:06:15] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:15] NoDecksFound updated to: False
+[2024-12-18 00:06:15] LoadDecksAsync completed
+[2024-12-18 00:06:16] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (2).fcs
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] Task.Run started
+[2024-12-18 00:06:16] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (2).fcs
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] Task.Run started
+[2024-12-18 00:06:16] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (2).fcs
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] Task.Run started
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Task.Run completed
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Task.Run completed
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Task.Run completed
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:16] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (3).fcs
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (3).fcs
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] Task.Run started
+[2024-12-18 00:06:16] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (3).fcs
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] LoadDecksAsync started
+[2024-12-18 00:06:16] Task.Run started
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: demo Test
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Deck loaded: Sample Deck
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Before Dispatcher.Invoke
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: demo Test
+[2024-12-18 00:06:16] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:16] NoDecksFound updated to: False
+[2024-12-18 00:06:16] LoadDecksAsync completed
+[2024-12-18 00:06:17] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (4).fcs
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (4).fcs
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (4).fcs
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (5).fcs
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (5).fcs
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (5).fcs
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (6).fcs
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (6).fcs
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (6).fcs
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (7).fcs
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Task.Run started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (7).fcs
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (7).fcs
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] LoadDecksAsync started
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Deck loaded: demo Test
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Deck loaded: Sample Deck
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Task.Run completed
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Before Dispatcher.Invoke
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: demo Test
+[2024-12-18 00:06:17] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:17] NoDecksFound updated to: False
+[2024-12-18 00:06:17] LoadDecksAsync completed
+[2024-12-18 00:06:18] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (8).fcs
+[2024-12-18 00:06:18] LoadDecksAsync started
+[2024-12-18 00:06:18] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (8).fcs
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] LoadDecksAsync started
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (8).fcs
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] LoadDecksAsync started
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: Sample Deck
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: Sample Deck
+[2024-12-18 00:06:18] Before Dispatcher.Invoke
+[2024-12-18 00:06:18] Deck loaded: Sample Deck
+[2024-12-18 00:06:18] Before Dispatcher.Invoke
+[2024-12-18 00:06:18] Task.Run completed
+[2024-12-18 00:06:18] Before Dispatcher.Invoke
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:18] NoDecksFound updated to: False
+[2024-12-18 00:06:18] LoadDecksAsync completed
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:18] NoDecksFound updated to: False
+[2024-12-18 00:06:18] LoadDecksAsync completed
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: demo Test
+[2024-12-18 00:06:18] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:18] NoDecksFound updated to: False
+[2024-12-18 00:06:18] LoadDecksAsync completed
+[2024-12-18 00:06:18] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (9).fcs
+[2024-12-18 00:06:18] LoadDecksAsync started
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (9).fcs
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] LoadDecksAsync started
+[2024-12-18 00:06:18] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (9).fcs
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] Task.Run started
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: Sample Deck
+[2024-12-18 00:06:18] Task.Run completed
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:18] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (10).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (10).fcs
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (10).fcs
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (11).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (11).fcs
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (11).fcs
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (12).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (12).fcs
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (12).fcs
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (13).fcs
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (14).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (14).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (14).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (15).fcs
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (15).fcs
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] File created: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (16).fcs
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (16).fcs
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] File changed: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (16).fcs
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] LoadDecksAsync started
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Task.Run started
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Deck loaded: demo Test
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Deck loaded: Sample Deck
+[2024-12-18 00:06:19] Task.Run completed
+[2024-12-18 00:06:19] Before Dispatcher.Invoke
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: demo Test
+[2024-12-18 00:06:19] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:19] NoDecksFound updated to: False
+[2024-12-18 00:06:19] LoadDecksAsync completed
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy.fcs
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (2).fcs
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (3).fcs
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (5).fcs
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (6).fcs
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (7).fcs
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (8).fcs
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (9).fcs
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (10).fcs
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (11).fcs
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (12).fcs
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (13).fcs
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (14).fcs
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (15).fcs
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] File deleted: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\a - Copy (16).fcs
+[2024-12-18 00:06:26] LoadDecksAsync started
+[2024-12-18 00:06:26] LoadDecksAsync completed
+[2024-12-18 00:06:26] Task.Run started
+[2024-12-18 00:06:26] Directory exists: D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards
+[2024-12-18 00:06:26] Deck loaded: demo Test
+[2024-12-18 00:06:26] Deck loaded: Sample Deck
+[2024-12-18 00:06:26] Task.Run completed
+[2024-12-18 00:06:26] Before Dispatcher.Invoke
+[2024-12-18 00:06:26] Added deck to Decks: demo Test
+[2024-12-18 00:06:26] Added deck to Decks: Sample Deck
+[2024-12-18 00:06:26] NoDecksFound updated to: False
+[2024-12-18 00:06:26] LoadDecksAsync completed

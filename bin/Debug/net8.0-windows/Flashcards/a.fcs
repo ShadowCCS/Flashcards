@@ -1,0 +1,16 @@
+[FCS1.0]
+Header:
+    FileType: Flashcard
+    Version: 1.0
+    Checksum: CRC32
+Index:
+    DeckNameOffset: 128
+    CardsOffset: 256
+Content:
+    DeckName: "demo Test"
+    Icon: <Base64>
+    Cards:
+        ["Front1", "Back1"],
+        ["Front2", "Back2"],
+        ["Front1", "Back1"],
+        ["Front2", "Back2"],
