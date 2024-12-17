@@ -10,12 +10,15 @@ FlashcardsApp is a modern, free, and open-source flashcard application designed 
 - **Settings**: Customize themes and preferences to suit your style.
 
 ## Planned Features
-
+- **Anki Compatibility**: Allows both import and export in the famous anki format.
 - **AI-Powered Features**: Generate decks, get explainations etc.
 - **Advanced Quiz|Test Modes**: Multiple-choice, matching, and more.
 - **Community Deck Sharing**: Download and share decks with others.
 - **Gamification**: Unlock badges, track achievements, and build streaks.
 
+
+## Custom File Extension
+![FCS Icon](https://github.com/ShadowCCS/Flashcards/blob/main/fcs.ico)
 ### Prerequisites
 
 - Windows 10 or later
