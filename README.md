@@ -19,7 +19,7 @@ FlashcardsApp is a modern, free, and open-source flashcard application designed 
 
 ## Custom File Extension
 ![FCS Icon](https://github.com/ShadowCCS/Flashcards/blob/main/fcs.ico)
-**Flashcards uses a custom file format that is meant to store the data used in the application. It is being worked on to be as small as possible while still being flexible and give feature compatibility for new updates and features.
+Flashcards utilizes a custom file format designed to efficiently store application data. The format is being optimized for size while maintaining flexibility and compatibility for future updates and features.
 ### Prerequisites
 
 - Windows 10 or later
