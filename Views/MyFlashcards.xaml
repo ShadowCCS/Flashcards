@@ -58,6 +58,27 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
             </ScrollViewer>
+
+            <!-- Buttons (Visible when a deck is selected) -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Right" Width="177">
+                <Button Content="Learn" Margin="5" 
+                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
+                        Command="{Binding LearnDeckCommand}"/>
+                <Button Content="Edit" Margin="5" 
+                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
+                        Command="{Binding EditDeckCommand}"/>
+                <Button Content="Export" Margin="5" 
+                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
+                        Command="{Binding ExportDeckCommand}"/>
+                <Button Content="Delete" Margin="5" 
+                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
+                        Command="{Binding DeleteDeckCommand}"/>
+            </StackPanel>
+            
+
         </StackPanel>
+
+        <!-- ContentControl to load different views -->
+        <ContentControl Content="{Binding CurrentViewModel}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
     </Grid>
 </Window>

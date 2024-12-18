@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\views\\myflashcards.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\myflashcards.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\views\\myflashcards.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\myflashcards.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\models\\deckparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:models\\deckparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\services\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:services\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyFlashcardsViewModel.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MyFlashcardsViewModel.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MyFlashcardsViewModel.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAuwL4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:10:46.586Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -68,19 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyFlashcards.xaml.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\MyFlashcards.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MyFlashcards.xaml.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\MyFlashcards.xaml.cs",
-              "RelativeToolTip": "Views\\MyFlashcards.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Services\\RelayCommand.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\RelayCommand.cs",
+              "RelativeToolTip": "Services\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:10:42.688Z",
+              "WhenOpened": "2024-12-18T16:42:21.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MyFlashcards.xaml",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\MyFlashcards.xaml",
               "RelativeDocumentMoniker": "Views\\MyFlashcards.xaml",
@@ -92,53 +63,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T20:06:15.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeckParser.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\DeckParser.cs",
-              "RelativeDocumentMoniker": "Models\\DeckParser.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\DeckParser.cs",
-              "RelativeToolTip": "Models\\DeckParser.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC8AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MyFlashcardsViewModel.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MyFlashcardsViewModel.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MyFlashcardsViewModel.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAmwPkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:01:39.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Flashcard.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Flashcard.cs",
-              "RelativeDocumentMoniker": "Models\\Flashcard.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Flashcard.cs",
-              "RelativeToolTip": "Models\\Flashcard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T19:58:58.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Deck.cs",
-              "RelativeDocumentMoniker": "Models\\Deck.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Deck.cs",
-              "RelativeToolTip": "Models\\Deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T19:58:40.387Z",
+              "WhenOpened": "2024-12-17T21:10:46.586Z",
               "EditorCaption": ""
             }
           ]

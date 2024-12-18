@@ -4,8 +4,10 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Input;
 using FlashcardsMVP;
 using FlashcardsMVP.Logs;
+using FlashcardsMVP.Services;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -39,6 +41,12 @@ namespace FlashcardsMVP.ViewModels
                     _selectedDeck = value;
                     OnPropertyChanged(nameof(SelectedDeck));
                     OnPropertyChanged(nameof(IsDeckSelected)); // Update the visibility when the deck is selected
+
+                    // Notify commands to re-evaluate CanExecute
+                    ((RelayCommand)LearnDeckCommand).RaiseCanExecuteChanged();
+                    ((RelayCommand)EditDeckCommand).RaiseCanExecuteChanged();
+                    ((RelayCommand)ExportDeckCommand).RaiseCanExecuteChanged();
+                    ((RelayCommand)DeleteDeckCommand).RaiseCanExecuteChanged();
                 }
             }
         }
@@ -87,14 +95,43 @@ namespace FlashcardsMVP.ViewModels
 
         private FileSystemWatcher _fileSystemWatcher;
 
+        public ICommand LearnDeckCommand { get; }
+        public ICommand EditDeckCommand { get; }
+        public ICommand ExportDeckCommand { get; }
+        public ICommand DeleteDeckCommand { get; }
+
         // Constructor to load the decks
         public MyFlashcardsViewModel()
         {
             Log.Clean();
             Log.Write("Log Cleaned");
+
             Decks = new ObservableCollection<Deck>(); // Initialize Decks collection
+
             LoadDecksAsync();
             SetupFileSystemWatcher();
+
+            LearnDeckCommand = new RelayCommand(LearnDeck, () => IsDeckSelected);
+            EditDeckCommand = new RelayCommand(EditDeck, () => IsDeckSelected);
+            ExportDeckCommand = new RelayCommand(ExportDeck, () => IsDeckSelected);
+            DeleteDeckCommand = new RelayCommand(DeleteDeck, () => IsDeckSelected);
+        }
+
+        private void LearnDeck()
+        {
+            Log.Write($"Learn Deck: {SelectedDeck.Name}");
+        }
+        private void EditDeck()
+        {
+            Log.Write($"Edit Deck: {SelectedDeck.Name}");
+        }
+        private void ExportDeck()
+        {
+            Log.Write($"Export Deck: {SelectedDeck.Name}");
+        }
+        private void DeleteDeck()
+        {
+            Log.Write($"Delete Deck: {SelectedDeck.Name}");
         }
 
         private void SetupFileSystemWatcher()
