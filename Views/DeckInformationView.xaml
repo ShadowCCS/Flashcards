@@ -10,17 +10,28 @@
     </UserControl.DataContext>
 
     <Grid>
-        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Stretch">
+        <!-- Define layout rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For header -->
+            <RowDefinition Height="*"/>
+            <!-- For the ListBox -->
+            <RowDefinition Height="Auto"/>
+            <!-- For buttons -->
+        </Grid.RowDefinitions>
 
+        <!-- Header Section -->
+        <StackPanel Grid.Row="0" Margin="5">
             <!-- Displaying the name of the deck -->
             <TextBlock Text="{Binding DeckName}" FontSize="20" FontWeight="Bold" />
 
             <!-- Displaying the number of cards -->
             <TextBlock Text="{Binding NumberOfCards, StringFormat='{}{0} cards'}" FontSize="14" />
+        </StackPanel>
 
-
-            <!-- ListBox to display cards -->
-            <ListBox ItemsSource="{Binding Cards}" Margin="0,10,0,0">
+        <!-- ListBox Section with ScrollViewer -->
+        <ScrollViewer Grid.Row="1" Margin="5">
+            <ListBox ItemsSource="{Binding Cards}" ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <!-- Displaying the Front as a title -->
@@ -32,13 +43,14 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
-                <Button Content="Learn" Margin="5" Background="#448E64" Width="50" Height="25"/>
-                <Button Content="Edit" Margin="5" Width="50" Height="25" Command="{Binding EditDeckCommand}"/>
-                <Button Content="Export" Margin="5" Width="50" Height="25"/>
-                <Button Content="Delete" Margin="5" Background="#C74A4C" Width="50" Height="25"/>
+        </ScrollViewer>
 
-            </StackPanel>
+        <!-- Buttons Section -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <Button Content="Learn" Margin="5" Background="#448E64" Width="50" Height="25"/>
+            <Button Content="Edit" Margin="5" Width="50" Height="25" Command="{Binding EditDeckCommand}"/>
+            <Button Content="Export" Margin="5" Width="50" Height="25"/>
+            <Button Content="Delete" Margin="5" Background="#C74A4C" Width="50" Height="25"/>
         </StackPanel>
     </Grid>
 </UserControl>

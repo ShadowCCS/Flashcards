@@ -10,7 +10,8 @@ Content:
     DeckName: "Sample 2"
     Icon: <Base64>
     Cards:
-        ["Front","Back"],
-        ["New Front","New Back"],
-        ["New Front","New Back"],
-        ["New Front","New Back"],
+        ["Ciao","Hello"],
+        ["Grazie","Thank you"],
+        ["Per favore","Please"],
+        ["Buongiorno","Good morning"],
+        ["Arrivederci","Goodbye"],

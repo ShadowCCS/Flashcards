@@ -12,21 +12,24 @@
     </UserControl.DataContext>
 
     <Grid>
-        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Stretch">
+        <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <TextBlock Text="Edit Deck" FontSize="32" Margin="5"/>
             <TextBlock Text="Decks are groups of flashcards. You can create a deck for anything you're learning." Foreground="#969696" FontSize="14" Margin="5"/>
             <TextBlock Text="Deck Name" Margin="5"/>
             <TextBox Text="{Binding DeckName}" Background="{x:Null}" Margin="5"/>
 
             <TextBlock Text="Cards"/>
-            <ListBox ItemsSource="{Binding Cards}" Margin="5">
+            <ListBox ItemsSource="{Binding Cards}" Margin="5" MaxHeight="400" ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
                             <TextBox Text="{Binding Front}" Width="200" Margin="5" />
                             <TextBox Text="{Binding Back}" Width="200" Margin="5" />
-                            <Button Content="Remove" Command="{Binding DataContext.RemoveCardCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" 
-                        CommandParameter="{Binding}" Margin="5" Background="#C74A4C" />
+                            <Button Content="Remove" 
+                        Command="{Binding DataContext.RemoveCardCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" 
+                        CommandParameter="{Binding}" 
+                        Margin="5" 
+                        Background="#C74A4C" />
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
