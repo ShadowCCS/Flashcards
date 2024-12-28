@@ -41,12 +41,11 @@ namespace FlashcardsMVP.ViewModels
             // Create the DeckManagerView and bind the corresponding ViewModel
             var deckManagerView = new DeckManagerView
             {
-                DataContext = new DeckManagerViewModel(_deck, _parentViewModel)
+                DataContext = new DeckManagerViewModel(_deck, _parentViewModel, isEditMode: true) // Pass isEditMode as true for editing
             };
 
             // Switch to DeckManagerView
             _parentViewModel.CurrentView = deckManagerView;
         }
-
     }
 }

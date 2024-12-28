@@ -1,10 +1,10 @@
-﻿using FlashcardsMVP.Services;
-using FlashcardsMVP.Views;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using FlashcardsMVP.Services;
+using FlashcardsMVP.Views;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -13,21 +13,32 @@ namespace FlashcardsMVP.ViewModels
         private readonly MyFlashcardsViewModel _parentViewModel;
         private string _deckName;
         private ObservableCollection<CardViewModel> _cards;
+        private bool _isEditMode;
 
         public ICommand SaveCommand { get; }
         public ICommand GoBackCommand { get; }
         public ICommand AddCardCommand { get; }
         public ICommand RemoveCardCommand { get; }
 
-        public DeckManagerViewModel(Deck deck, MyFlashcardsViewModel parentViewModel)
+        public DeckManagerViewModel(Deck deck, MyFlashcardsViewModel parentViewModel, bool isEditMode = false)
         {
             _parentViewModel = parentViewModel;
+            _isEditMode = isEditMode;
 
-            // Initialize deck properties
-            DeckName = deck.Name;
-            Cards = new ObservableCollection<CardViewModel>(deck.Cards.Select(c => new CardViewModel(c)));
+            if (_isEditMode && deck != null)
+            {
+                // Editing existing deck
+                DeckName = deck.Name;
+                Cards = new ObservableCollection<CardViewModel>(deck.Cards.Select(c => new CardViewModel(c)));
+            }
+            else
+            {
+                // Creating new deck
+                DeckName = string.Empty;  // Empty name for new deck
+                Cards = new ObservableCollection<CardViewModel>();
+                AddCard();
+            }
 
-            // Initialize commands
             SaveCommand = new RelayCommand(Save);
             GoBackCommand = new RelayCommand(GoBack);
             AddCardCommand = new RelayCommand(AddCard);
@@ -54,21 +65,97 @@ namespace FlashcardsMVP.ViewModels
             }
         }
 
+        // Dynamic page title and button text based on edit/create mode
+        public string PageTitle => _isEditMode ? "Edit Deck" : "Create a New Deck";
+        public string SaveButtonText => _isEditMode ? "Save" : "Create";
+
         private void Save()
         {
-            // Serialize changes back to the .fcs file
-            string filePath = Path.Combine("Flashcards", $"{DeckName}.fcs");
-
+            // Ensure the deck name is provided
             if (string.IsNullOrEmpty(DeckName))
             {
                 MessageBox.Show("Deck name cannot be empty.");
                 return;
             }
 
-            using (var writer = new StreamWriter(filePath))
+            // Create or overwrite the .fcs file based on whether we are editing or creating
+            string deckFilePath = GetDeckFilePath(DeckName);
+            if (_isEditMode && File.Exists(deckFilePath))
             {
+                // Overwrite the existing deck file if in edit mode
+                File.Delete(deckFilePath);
+            }
 
+            CreateDeckFile(deckFilePath);
+            _parentViewModel.LoadDecksAsync();  // Refresh deck list
+            GoBack();
+        }
 
+        private void GoBack()
+        {
+            // Go back to the previous view, either the deck information or deck list view
+            _parentViewModel.CurrentView = new DeckInformationView
+            {
+                DataContext = new DeckInformationViewModel(_parentViewModel.SelectedDeck, _parentViewModel)
+            };
+        }
+
+        private void AddCard()
+        {
+            Cards.Add(new CardViewModel(new Flashcard { Front = "Front", Back = "Back" }));
+        }
+
+        private void RemoveCard(object card)
+        {
+            if (card is CardViewModel cardToRemove)
+            {
+                Cards.Remove(cardToRemove);
+            }
+        }
+
+        public class CardViewModel : BaseViewModel
+        {
+            private string _front;
+            private string _back;
+
+            public CardViewModel(Flashcard card)
+            {
+                Front = card.Front;
+                Back = card.Back;
+            }
+
+            public string Front
+            {
+                get => _front;
+                set
+                {
+                    _front = value;
+                    OnPropertyChanged(nameof(Front));
+                }
+            }
+
+            public string Back
+            {
+                get => _back;
+                set
+                {
+                    _back = value;
+                    OnPropertyChanged(nameof(Back));
+                }
+            }
+        }
+
+        private string GetDeckFilePath(string deckName)
+        {
+            string resourcesPath = Path.Combine(Directory.GetCurrentDirectory(), "Flashcards");
+            return Path.Combine(resourcesPath, $"{deckName}.fcs");
+        }
+
+        private void CreateDeckFile(string deckFilePath)
+        {
+            // Create or overwrite the deck file
+            using (var writer = new StreamWriter(deckFilePath))
+            {
                 writer.WriteLine("[FCS1.0]");
                 writer.WriteLine("Header:");
                 writer.WriteLine("    FileType: Flashcard");
@@ -85,63 +172,6 @@ namespace FlashcardsMVP.ViewModels
                 {
                     writer.WriteLine($"        [\"{card.Front}\",\"{card.Back}\"],");
                 }
-            }
-
-            // Notify parent view model to update the deck
-            _parentViewModel.LoadDecksAsync();
-            GoBack();
-        }
-
-        private void GoBack()
-        {
-            _parentViewModel.CurrentView = new DeckInformationView
-            {
-                DataContext = new DeckInformationViewModel(_parentViewModel.SelectedDeck, _parentViewModel)
-            };
-        }
-
-        private void AddCard()
-        {
-            Cards.Add(new CardViewModel(new Flashcard { Front = "New Front", Back = "New Back" }));
-        }
-
-        private void RemoveCard(object card)
-        {
-            if (card is CardViewModel cardToRemove)
-            {
-                Cards.Remove(cardToRemove);
-            }
-        }
-    }
-
-    public class CardViewModel : BaseViewModel
-    {
-        private string _front;
-        private string _back;
-
-        public CardViewModel(Flashcard card)
-        {
-            Front = card.Front;
-            Back = card.Back;
-        }
-
-        public string Front
-        {
-            get => _front;
-            set
-            {
-                _front = value;
-                OnPropertyChanged(nameof(Front));
-            }
-        }
-
-        public string Back
-        {
-            get => _back;
-            set
-            {
-                _back = value;
-                OnPropertyChanged(nameof(Back));
             }
         }
     }

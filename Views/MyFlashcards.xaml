@@ -8,7 +8,6 @@
         mc:Ignorable="d"
         WindowStyle="ToolWindow"
         Title="MyFlashcards" Height="450" Width="800">
-    
 
     <Window.Resources>
         <local1:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
@@ -17,7 +16,7 @@
     <Window.DataContext>
         <local:MyFlashcardsViewModel />
     </Window.DataContext>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
@@ -25,11 +24,11 @@
         </Grid.ColumnDefinitions>
 
         <!-- Left side: List of decks -->
-        <ListBox Name="DeckListBox" 
-                 HorizontalAlignment="Stretch" 
-                 VerticalAlignment="Stretch"
-                 ItemsSource="{Binding Decks}" 
-                 SelectedItem="{Binding SelectedDeck}">
+        <ListBox Name="DeckListBox"
+         HorizontalAlignment="Stretch"
+         VerticalAlignment="Stretch"
+         ItemsSource="{Binding Decks}" 
+         SelectedItem="{Binding SelectedDeck}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -39,13 +38,14 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Button Content="Create New Deck" Command="{Binding CreateDeckMethodCommand}" VerticalAlignment="Bottom" Width="200" Margin="10"/>
+
 
         <!-- Right side: ContentControl to display deck info -->
         <ContentControl Grid.Column="1"
-                Content="{Binding CurrentView}"
-                Margin="10"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top" />
-
+                        Content="{Binding CurrentView}"
+                        Margin="10"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top" />
     </Grid>
 </Window>

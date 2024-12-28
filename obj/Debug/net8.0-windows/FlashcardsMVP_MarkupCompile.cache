@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Programming Projects\Flashcards APP\Flashcards\App.xaml
-3-100818425
+4-1545255417
 
-18813351163
+20165246748
 198-556154604
-Views\DeckInformationView.xaml;Views\DeckManagerView.xaml;Views\MyFlashcards.xaml;
+Views\DeckCreationMethodView.xaml;Views\DeckInformationView.xaml;Views\DeckManagerView.xaml;Views\MyFlashcards.xaml;
 
 False
 

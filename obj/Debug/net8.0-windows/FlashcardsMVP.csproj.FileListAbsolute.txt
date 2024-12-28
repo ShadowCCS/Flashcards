@@ -26,3 +26,5 @@ D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\ref\F
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\Sample.fcs
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckManagerView.g.cs
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckManagerView.baml
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckCreationMethodView.g.cs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckCreationMethodView.baml

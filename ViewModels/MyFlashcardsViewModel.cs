@@ -9,6 +9,7 @@ using System.Diagnostics;
 using FlashcardsMVP.Logs;
 using FlashcardsMVP.Views;
 using System.Windows.Controls;
+using FlashcardsMVP.ViewModels;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -21,6 +22,10 @@ namespace FlashcardsMVP.ViewModels
         private FileSystemWatcher _fileSystemWatcher;
         private UserControl _currentView;
 
+
+        public ICommand CreateDeckMethodCommand { get; }
+
+
         // CurrentView to bind to the ContentControl
         public UserControl CurrentView
         {
@@ -31,6 +36,7 @@ namespace FlashcardsMVP.ViewModels
                 OnPropertyChanged(nameof(CurrentView));
             }
         }
+
 
         // Property to hold all decks
         public ObservableCollection<Deck> Decks
@@ -92,13 +98,30 @@ namespace FlashcardsMVP.ViewModels
             }
         }
 
-        // Constructor for MyFlashcardsViewModel
+
         public MyFlashcardsViewModel()
         {
             Decks = new ObservableCollection<Deck>();
             LoadDecksAsync();
             SetupFileSystemWatcher();
+
+
+            CreateDeckMethodCommand = new RelayCommand(CreateDeckMethod);
+
+
         }
+
+
+        private void CreateDeckMethod()
+        {
+            // Pass the current instance (`this`) to DeckCreationMethodViewModel
+            CurrentView = new DeckCreationMethodView
+            {
+                DataContext = new DeckCreationMethodViewModel(this)
+            };
+        }
+
+
 
         // File system watcher setup to detect file changes
         private void SetupFileSystemWatcher()

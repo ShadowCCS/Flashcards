@@ -13,7 +13,7 @@
 
     <Grid>
         <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-            <TextBlock Text="Edit Deck" FontSize="32" Margin="5"/>
+            <TextBlock Text="{Binding PageTitle}" FontSize="32" Margin="5"/>
             <TextBlock Text="Decks are groups of flashcards. You can create a deck for anything you're learning." Foreground="#969696" FontSize="14" Margin="5"/>
             <TextBlock Text="Deck Name" Margin="5"/>
             <TextBox Text="{Binding DeckName}" Background="{x:Null}" Margin="5"/>
@@ -38,7 +38,7 @@
             <Button Content="+ Add card(s)"  Background="#448e64" Height="21" Width="84" HorizontalAlignment="Right" Margin="5" Command="{Binding AddCardCommand}"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
-                <Button Content="Save" Margin="5" Background="#448E64" Width="70" Height="25" Command="{Binding SaveCommand}"/>
+                <Button Content="{Binding SaveButtonText}" Margin="5" Background="#448E64" Width="70" Height="25" Command="{Binding SaveCommand}"/>
                 <Button Content="Cancle" Margin="5" Width="70" Height="25" Command="{Binding GoBackCommand}"/>
                 <Button Content="Delete Deck" Margin="5" Background="#C74A4C" Width="70" Height="25"/>
 
