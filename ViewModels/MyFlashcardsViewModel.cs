@@ -95,12 +95,6 @@ namespace FlashcardsMVP.ViewModels
             Decks = new ObservableCollection<Deck>();
             LoadDecksAsync();
             SetupFileSystemWatcher();
-
-            // Commands
-            LearnDeckCommand = new RelayCommand(LearnDeck, () => IsDeckSelected);
-            EditDeckCommand = new RelayCommand(EditDeck, () => IsDeckSelected);
-            ExportDeckCommand = new RelayCommand(ExportDeck, () => IsDeckSelected);
-            DeleteDeckCommand = new RelayCommand(DeleteDeck, () => IsDeckSelected);
         }
 
         // File system watcher setup to detect file changes
@@ -137,35 +131,7 @@ namespace FlashcardsMVP.ViewModels
             NoDecksFound = Decks == null || Decks.Count == 0;
         }
 
-        // Command actions for Learn, Edit, Export, Delete
-        public ICommand LearnDeckCommand { get; }
-        public ICommand EditDeckCommand { get; }
-        public ICommand ExportDeckCommand { get; }
-        public ICommand DeleteDeckCommand { get; }
-
-        // Handle Learn Deck Command
-        private void LearnDeck()
-        {
-            // Implement logic for learning a deck
-        }
-
-        // Handle Edit Deck Command
-        private void EditDeck()
-        {
-            // Implement logic for editing a deck
-        }
-
-        // Handle Export Deck Command
-        private void ExportDeck()
-        {
-            // Implement logic for exporting a deck
-        }
-
-        // Handle Delete Deck Command
-        private void DeleteDeck()
-        {
-            // Implement logic for deleting a deck
-        }
+       
 
         // Async method to load decks from the directory
         private async Task LoadDecksAsync()
