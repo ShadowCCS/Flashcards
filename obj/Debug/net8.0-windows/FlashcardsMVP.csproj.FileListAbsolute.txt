@@ -24,3 +24,5 @@ D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Flash
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.genruntimeconfig.cache
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\ref\FlashcardsMVP.dll
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\Sample.fcs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckManagerView.g.cs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckManagerView.baml

@@ -43,7 +43,6 @@ namespace FlashcardsMVP.ViewModels
             }
         }
 
-        // The selected deck
         public Deck SelectedDeck
         {
             get => _selectedDeck;
@@ -57,18 +56,22 @@ namespace FlashcardsMVP.ViewModels
 
                     Log.Write($"SelectedDeck changed: {_selectedDeck?.Name}");
 
-                    // Set the UserControl (CurrentView) and bind the ViewModel (CurrentViewModel)
                     if (_selectedDeck != null)
                     {
-                        CurrentView = new DeckInformationView { DataContext = new DeckInformationViewModel(_selectedDeck) };
+                        // Pass 'this' (MyFlashcardsViewModel instance) into DeckInformationViewModel
+                        CurrentView = new DeckInformationView
+                        {
+                            DataContext = new DeckInformationViewModel(_selectedDeck, this)
+                        };
                     }
                     else
                     {
-                        CurrentView = null;  // Or reset the view if no deck is selected
+                        CurrentView = null;
                     }
                 }
             }
         }
+
 
         // Check if a deck is selected
         public bool IsDeckSelected => SelectedDeck != null;
@@ -118,7 +121,6 @@ namespace FlashcardsMVP.ViewModels
                 _fileSystemWatcher.EnableRaisingEvents = true;
             }
         }
-
         private void OnFileChanged(object sender, FileSystemEventArgs e)
         {
             LoadDecksAsync(); // Reload decks when a file is created, deleted, changed, or renamed
@@ -134,7 +136,7 @@ namespace FlashcardsMVP.ViewModels
        
 
         // Async method to load decks from the directory
-        private async Task LoadDecksAsync()
+        public async Task LoadDecksAsync()
         {
             var newDecks = new List<Deck>();
             NoDecksFound = false;
