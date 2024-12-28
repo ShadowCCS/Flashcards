@@ -10,7 +10,7 @@ Content:
     DeckName: "demo Test"
     Icon: <Base64>
     Cards:
-        ["Front1", "Back1"],
-        ["Front2", "Back2"],
-        ["Front1", "Back1"],
-        ["Front2", "Back2"],
+        ["Front1",Back1"],
+        ["Front2",Back2"],
+        ["Front1",Back1"],
+        ["Front2",Back2"],

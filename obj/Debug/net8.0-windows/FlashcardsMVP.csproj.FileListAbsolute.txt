@@ -1,11 +1,17 @@
+D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Logs\log.txt
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\FlashcardsMVP.exe
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\FlashcardsMVP.deps.json
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\FlashcardsMVP.runtimeconfig.json
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\FlashcardsMVP.dll
 D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\FlashcardsMVP.pdb
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckInformationView.g.cs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\MyFlashcards.g.cs
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP_MarkupCompile.cache
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP_MarkupCompile.lref
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckInformationView.baml
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\MyFlashcards.baml
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.g.resources
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.AssemblyInfoInputs.cache
@@ -17,8 +23,4 @@ D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\refin
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.pdb
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\FlashcardsMVP.genruntimeconfig.cache
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\ref\FlashcardsMVP.dll
-D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\MyFlashcards.g.cs
-D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\MyFlashcards.baml
-D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Logs\log.txt
-D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\sample.fcs
+D:\Programming Projects\Flashcards APP\Flashcards\bin\Debug\net8.0-windows\Flashcards\Sample.fcs

@@ -30,5 +30,18 @@ namespace FlashcardsMVP.Views
             this.DataContext = new MyFlashcardsViewModel();
         }
 
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (DataContext is MyFlashcardsViewModel viewModel && sender is ListBox listBox)
+            {
+                if (listBox.SelectedItem is Deck selectedDeck)
+                {
+                    viewModel.SelectedDeck = selectedDeck;
+                }
+            }
+        }
+
+
+
     }
 }

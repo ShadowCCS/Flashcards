@@ -7,7 +7,7 @@ Index:
     DeckNameOffset: 128
     CardsOffset: 256
 Content:
-    DeckName: "Sample Deck"
+    DeckName: "Sample"
     Icon: <Base64>
     Cards:
         ["Front1", "Back1"],

@@ -3,26 +3,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FlashcardsMVP.Services"
+        xmlns:local="clr-namespace:FlashcardsMVP.ViewModels"
+        xmlns:local1="clr-namespace:FlashcardsMVP.Services"
         mc:Ignorable="d"
-        WindowStyle="None"
+        WindowStyle="ToolWindow"
         Title="MyFlashcards" Height="450" Width="800">
+    
 
     <Window.Resources>
-        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <local1:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
     </Window.Resources>
 
+    <Window.DataContext>
+        <local:MyFlashcardsViewModel />
+    </Window.DataContext>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
-            <!-- Width for the ListBox -->
             <ColumnDefinition Width="*"/>
-            <!-- Remaining space for the detailed view -->
         </Grid.ColumnDefinitions>
 
-        <!-- ListBox to show decks -->
-        <ListBox Name="DeckListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                 ItemsSource="{Binding Decks}" SelectedItem="{Binding SelectedDeck}" Visibility="{Binding DecksVisibility}">
+        <!-- Left side: List of decks -->
+        <ListBox Name="DeckListBox" 
+                 HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Stretch"
+                 ItemsSource="{Binding Decks}" 
+                 SelectedItem="{Binding SelectedDeck}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -33,52 +40,12 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <!-- No Decks Found message -->
-        <TextBlock Text="No Decks Found" HorizontalAlignment="Center" VerticalAlignment="Center"
-                   FontSize="18" FontWeight="Bold" Foreground="Gray"
-                   Visibility="{Binding NoDecksFound, Converter={StaticResource BoolToVisibilityConverter}, FallbackValue=Visible}"
-                   Grid.ColumnSpan="2"/>
+        <!-- Right side: ContentControl to display deck info -->
+        <ContentControl Grid.Column="1"
+                Content="{Binding CurrentView}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
 
-        <!-- Detailed deck information (only visible when a deck is selected) -->
-        <StackPanel Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}"
-                    Grid.Column="1" Margin="10">
-            <TextBlock Text="{Binding SelectedDeck.Name}" FontWeight="Bold"/>
-            <TextBlock Text="{Binding SelectedDeck.NumberOfCards, StringFormat='Cards: {0}'}" Foreground="Gray"/>
-
-            <!-- ScrollViewer to enable scrolling if there are too many flashcards -->
-            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="300">
-                <ListBox ItemsSource="{Binding SelectedDeck.Cards}">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel>
-                                <TextBlock Text="{Binding Front}" />
-                                <TextBlock Text="{Binding Back}" Foreground="Gray"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-            </ScrollViewer>
-
-            <!-- Buttons (Visible when a deck is selected) -->
-            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Right" Width="177">
-                <Button Content="Learn" Margin="5" 
-                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
-                        Command="{Binding LearnDeckCommand}"/>
-                <Button Content="Edit" Margin="5" 
-                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
-                        Command="{Binding EditDeckCommand}"/>
-                <Button Content="Export" Margin="5" 
-                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
-                        Command="{Binding ExportDeckCommand}"/>
-                <Button Content="Delete" Margin="5" 
-                        Visibility="{Binding IsDeckSelected, Converter={StaticResource BoolToVisibilityConverter}}" 
-                        Command="{Binding DeleteDeckCommand}"/>
-            </StackPanel>
-            
-
-        </StackPanel>
-
-        <!-- ContentControl to load different views -->
-        <ContentControl Content="{Binding CurrentViewModel}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
     </Grid>
 </Window>

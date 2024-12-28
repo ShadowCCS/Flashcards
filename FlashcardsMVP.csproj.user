@@ -7,11 +7,17 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\DeckInformationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\MyFlashcards.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\DeckInformationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MyFlashcards.xaml">
       <SubType>Designer</SubType>
     </Page>

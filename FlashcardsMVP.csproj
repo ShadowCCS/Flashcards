@@ -10,13 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Flashcards\sample.fcs" />
-    <None Remove="Logs\log.txt" />
-    <None Remove="Resources\sample.fcs" />
+    <None Remove="Flashcards\Sample.fcs" />
   </ItemGroup>
 
+
   <ItemGroup>
-    <EmbeddedResource Include="Flashcards\sample.fcs">
+    <EmbeddedResource Include="Flashcards\Sample.fcs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Logs\log.txt">
@@ -24,8 +23,5 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
 
 </Project>

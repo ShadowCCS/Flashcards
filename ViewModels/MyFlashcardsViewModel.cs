@@ -1,25 +1,38 @@
-﻿using System.Collections.Generic;
+﻿using System.Windows.Input;
+using FlashcardsMVP.Services;
+using FlashcardsMVP.ViewModels;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
 using System.Windows;
-using System.Windows.Input;
-using FlashcardsMVP;
+using System.Diagnostics;
 using FlashcardsMVP.Logs;
-using FlashcardsMVP.Services;
+using FlashcardsMVP.Views;
+using System.Windows.Controls;
 
 namespace FlashcardsMVP.ViewModels
 {
     public class MyFlashcardsViewModel : INotifyPropertyChanged
     {
-
         private Deck _selectedDeck;
         private bool _noDecksFound;
-
-        private string flashcardDirectory = "Flashcards";
-        // List of all the decks
         private ObservableCollection<Deck> _decks;
+        private string flashcardDirectory = "Flashcards"; // Flashcard directory
+        private FileSystemWatcher _fileSystemWatcher;
+        private UserControl _currentView;
+
+        // CurrentView to bind to the ContentControl
+        public UserControl CurrentView
+        {
+            get => _currentView;
+            set
+            {
+                _currentView = value;
+                OnPropertyChanged(nameof(CurrentView));
+            }
+        }
+
+        // Property to hold all decks
         public ObservableCollection<Deck> Decks
         {
             get => _decks;
@@ -30,7 +43,7 @@ namespace FlashcardsMVP.ViewModels
             }
         }
 
-        // The deck that is selected by the user
+        // The selected deck
         public Deck SelectedDeck
         {
             get => _selectedDeck;
@@ -40,39 +53,30 @@ namespace FlashcardsMVP.ViewModels
                 {
                     _selectedDeck = value;
                     OnPropertyChanged(nameof(SelectedDeck));
-                    OnPropertyChanged(nameof(IsDeckSelected)); // Update the visibility when the deck is selected
+                    OnPropertyChanged(nameof(IsDeckSelected));
 
-                    // Notify commands to re-evaluate CanExecute
-                    ((RelayCommand)LearnDeckCommand).RaiseCanExecuteChanged();
-                    ((RelayCommand)EditDeckCommand).RaiseCanExecuteChanged();
-                    ((RelayCommand)ExportDeckCommand).RaiseCanExecuteChanged();
-                    ((RelayCommand)DeleteDeckCommand).RaiseCanExecuteChanged();
+                    Log.Write($"SelectedDeck changed: {_selectedDeck?.Name}");
+
+                    // Set the UserControl (CurrentView) and bind the ViewModel (CurrentViewModel)
+                    if (_selectedDeck != null)
+                    {
+                        CurrentView = new DeckInformationView { DataContext = new DeckInformationViewModel(_selectedDeck) };
+                    }
+                    else
+                    {
+                        CurrentView = null;  // Or reset the view if no deck is selected
+                    }
                 }
             }
         }
 
+        // Check if a deck is selected
+        public bool IsDeckSelected => SelectedDeck != null;
 
-
-        private Visibility _decksVisibility;
-        public Visibility DecksVisibility
-        {
-            get { return _decksVisibility; }
-            set
-            {
-                _decksVisibility = value;
-                OnPropertyChanged(nameof(DecksVisibility));
-            }
-        }
-
-        // Boolean property to track whether decks are found
-        public bool IsDecksFound => Decks != null && Decks.Count > 0;
-
-
-
-        // Property to handle visibility of "No Decks Found" message
+        // Property for "No Decks Found" message
         public bool NoDecksFound
         {
-            get { return _noDecksFound; }
+            get => _noDecksFound;
             set
             {
                 if (_noDecksFound != value)
@@ -84,56 +88,22 @@ namespace FlashcardsMVP.ViewModels
                 }
             }
         }
-        public bool IsDeckSelected => SelectedDeck != null;
 
-
-        private void UpdateDecksVisibility()
-        {
-            // If there are no decks or if NoDecksFound is true, hide the ListBox and show the "No Decks Found" message.
-            DecksVisibility = (Decks != null && Decks.Count > 0) ? Visibility.Visible : Visibility.Collapsed;
-        }
-
-        private FileSystemWatcher _fileSystemWatcher;
-
-        public ICommand LearnDeckCommand { get; }
-        public ICommand EditDeckCommand { get; }
-        public ICommand ExportDeckCommand { get; }
-        public ICommand DeleteDeckCommand { get; }
-
-        // Constructor to load the decks
+        // Constructor for MyFlashcardsViewModel
         public MyFlashcardsViewModel()
         {
-            Log.Clean();
-            Log.Write("Log Cleaned");
-
-            Decks = new ObservableCollection<Deck>(); // Initialize Decks collection
-
+            Decks = new ObservableCollection<Deck>();
             LoadDecksAsync();
             SetupFileSystemWatcher();
 
+            // Commands
             LearnDeckCommand = new RelayCommand(LearnDeck, () => IsDeckSelected);
             EditDeckCommand = new RelayCommand(EditDeck, () => IsDeckSelected);
             ExportDeckCommand = new RelayCommand(ExportDeck, () => IsDeckSelected);
             DeleteDeckCommand = new RelayCommand(DeleteDeck, () => IsDeckSelected);
         }
 
-        private void LearnDeck()
-        {
-            Log.Write($"Learn Deck: {SelectedDeck.Name}");
-        }
-        private void EditDeck()
-        {
-            Log.Write($"Edit Deck: {SelectedDeck.Name}");
-        }
-        private void ExportDeck()
-        {
-            Log.Write($"Export Deck: {SelectedDeck.Name}");
-        }
-        private void DeleteDeck()
-        {
-            Log.Write($"Delete Deck: {SelectedDeck.Name}");
-        }
-
+        // File system watcher setup to detect file changes
         private void SetupFileSystemWatcher()
         {
             string resourcesPath = Path.Combine(Directory.GetCurrentDirectory(), flashcardDirectory);
@@ -146,92 +116,97 @@ namespace FlashcardsMVP.ViewModels
                     Filter = "*.fcs"
                 };
 
-                _fileSystemWatcher.Created += (sender, e) =>
-                {
-                    Log.Write($"File created: {e.FullPath}");  // Log when a new file is created
-                    LoadDecksAsync();
-                };
-                _fileSystemWatcher.Deleted += (sender, e) =>
-                {
-                    Log.Write($"File deleted: {e.FullPath}");  // Log when a file is deleted
-                    LoadDecksAsync();
-                };
-                _fileSystemWatcher.Changed += (sender, e) =>
-                {
-                    Log.Write($"File changed: {e.FullPath}");  // Log when a file is modified
-                    LoadDecksAsync();
-                };
-                _fileSystemWatcher.Renamed += (sender, e) =>
-                {
-                    Log.Write($"File renamed: {e.OldFullPath} to {e.FullPath}");  // Log when a file is renamed
-                    LoadDecksAsync();
-                };
+                _fileSystemWatcher.Created += OnFileChanged;
+                _fileSystemWatcher.Deleted += OnFileChanged;
+                _fileSystemWatcher.Changed += OnFileChanged;
+                _fileSystemWatcher.Renamed += OnFileChanged;
 
                 _fileSystemWatcher.EnableRaisingEvents = true;
             }
         }
 
+        private void OnFileChanged(object sender, FileSystemEventArgs e)
+        {
+            LoadDecksAsync(); // Reload decks when a file is created, deleted, changed, or renamed
+        }
 
+        // Update the visibility of the decks
+        private void UpdateDecksVisibility()
+        {
+            DecksVisibility = Decks != null && Decks.Count > 0 ? Visibility.Visible : Visibility.Collapsed;
+            NoDecksFound = Decks == null || Decks.Count == 0;
+        }
 
+        // Command actions for Learn, Edit, Export, Delete
+        public ICommand LearnDeckCommand { get; }
+        public ICommand EditDeckCommand { get; }
+        public ICommand ExportDeckCommand { get; }
+        public ICommand DeleteDeckCommand { get; }
+
+        // Handle Learn Deck Command
+        private void LearnDeck()
+        {
+            // Implement logic for learning a deck
+        }
+
+        // Handle Edit Deck Command
+        private void EditDeck()
+        {
+            // Implement logic for editing a deck
+        }
+
+        // Handle Export Deck Command
+        private void ExportDeck()
+        {
+            // Implement logic for exporting a deck
+        }
+
+        // Handle Delete Deck Command
+        private void DeleteDeck()
+        {
+            // Implement logic for deleting a deck
+        }
+
+        // Async method to load decks from the directory
         private async Task LoadDecksAsync()
         {
-            Log.Write("LoadDecksAsync started");
-
             var newDecks = new List<Deck>();
             NoDecksFound = false;
 
             await Task.Run(() =>
             {
-                Log.Write("Task.Run started");
-
                 string resourcesPath = Path.Combine(Directory.GetCurrentDirectory(), flashcardDirectory);
 
                 if (Directory.Exists(resourcesPath))
                 {
-                    Log.Write($"Directory exists: {resourcesPath}");
                     var files = Directory.GetFiles(resourcesPath, "*.fcs");
                     foreach (var file in files)
                     {
                         try
                         {
-                            var deck = DeckParser.ParseDeck(file); // Simulate time-consuming operation
+                            var deck = DeckParser.ParseDeck(file); // Load the deck file
                             newDecks.Add(deck);
-                            Log.Write($"Deck loaded: {deck.Name}");
                         }
                         catch (Exception ex)
                         {
-                            Log.Write($"Error loading deck from {file}: {ex.Message}");
+                            // Log error if deck cannot be loaded
                         }
                     }
                 }
-                else
-                {
-                    Log.Write("Resources directory not found");
-                }
-                Log.Write("Task.Run completed");
             });
 
-            Log.Write("Before Dispatcher.Invoke");
             Application.Current.Dispatcher.Invoke(() =>
             {
-                Decks.Clear(); // Clear existing items
+                Decks.Clear();
                 foreach (var deck in newDecks)
                 {
-                    Decks.Add(deck); // Add new items
-                    Log.Write($"Added deck to Decks: {deck.Name}");
+                    Decks.Add(deck);
                 }
-                NoDecksFound = Decks.Count == 0; // Update "NoDecksFound" visibility
-                Log.Write($"NoDecksFound updated to: {NoDecksFound}");
+                NoDecksFound = Decks.Count == 0;
             });
-
-            Log.Write("LoadDecksAsync completed");
         }
 
-
-
-
-
-        // INotifyPropertyChanged implementation to notify the view about property changes
+        // INotifyPropertyChanged implementation for property change notifications
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)
@@ -239,12 +214,22 @@ namespace FlashcardsMVP.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        // Stop the file system watcher when no longer needed
         public void StopWatching()
         {
             _fileSystemWatcher?.Dispose();
         }
 
-
-
+        // Property to manage Decks visibility
+        private Visibility _decksVisibility;
+        public Visibility DecksVisibility
+        {
+            get => _decksVisibility;
+            set
+            {
+                _decksVisibility = value;
+                OnPropertyChanged(nameof(DecksVisibility));
+            }
+        }
     }
 }
