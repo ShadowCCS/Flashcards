@@ -9,7 +9,6 @@ using System.Diagnostics;
 using FlashcardsMVP.Logs;
 using FlashcardsMVP.Views;
 using System.Windows.Controls;
-using FlashcardsMVP.ViewModels;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -175,12 +174,12 @@ namespace FlashcardsMVP.ViewModels
                     {
                         try
                         {
-                            var deck = DeckParser.ParseDeck(file); // Load the deck file
+                            var deck = DeckParser.ParseDeck(file);
                             newDecks.Add(deck);
                         }
                         catch (Exception ex)
                         {
-                            // Log error if deck cannot be loaded
+                            Log.Error(ex.ToString());
                         }
                     }
                 }
@@ -197,7 +196,6 @@ namespace FlashcardsMVP.ViewModels
             });
         }
 
-        // INotifyPropertyChanged implementation for property change notifications
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)

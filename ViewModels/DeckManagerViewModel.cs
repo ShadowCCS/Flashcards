@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using FlashcardsMVP.Services;
 using FlashcardsMVP.Views;
+using FlashcardsMVP.Logs;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -73,6 +74,7 @@ namespace FlashcardsMVP.ViewModels
         public string PageTitle => _isEditMode ? "Edit Deck" : "Create a New Deck";
         public string SaveButtonText => _isEditMode ? "Save" : "Create";
 
+        private Deck selectedDeck;
         private void Save()
         {
             // Ensure the deck name is provided
@@ -92,16 +94,26 @@ namespace FlashcardsMVP.ViewModels
 
             CreateDeckFile(deckFilePath);
             _parentViewModel.LoadDecksAsync();  // Refresh deck list
+
+            selectedDeck = DeckParser.ParseDeck(deckFilePath);
             GoBack();
         }
 
         private void GoBack()
         {
-            // Go back to the previous view, either the deck information or deck list view
-            _parentViewModel.CurrentView = new DeckInformationView
+            try
             {
-                DataContext = new DeckInformationViewModel(_parentViewModel.SelectedDeck, _parentViewModel)
-            };
+                _parentViewModel.CurrentView = new DeckInformationView
+                {
+                    DataContext = new DeckInformationViewModel(selectedDeck, _parentViewModel)
+                };
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex.ToString());
+                return;
+            }
+            // Go back to the previous view, either the deck information or deck list view
         }
 
         private void AddCard()

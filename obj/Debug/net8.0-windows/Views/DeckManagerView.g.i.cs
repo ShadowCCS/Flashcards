@@ -53,7 +53,7 @@ namespace FlashcardsMVP.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FlashcardsMVP;V1.0.0.0;component/views/deckmanagerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FlashcardsMVP;component/views/deckmanagerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\DeckManagerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

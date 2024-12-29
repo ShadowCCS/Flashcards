@@ -54,7 +54,7 @@ public static class DeckParser
         var deck = new Deck
         {
             Name = GetContentValue(content, "DeckName"),
-            IconBase64 = GetContentValue(content, "Icon"),
+            //IconBase64 = GetContentValue(content, "Icon"), Missing Implementation
             Cards = ParseCards(content)
         };
 

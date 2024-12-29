@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\flashcards\\sample.fcs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:flashcards\\sample.fcs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:viewmodels\\myflashcardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\models\\deckparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:models\\deckparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\viewmodels\\deckinformationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:viewmodels\\deckinformationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +31,16 @@
       "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\deckmanagerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\viewmodels\\extras\\confirmationboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:viewmodels\\extras\\confirmationboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\views\\deckinformationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\deckinformationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\views\\extras\\confirmationboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\extras\\confirmationboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\services\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:services\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\services\\getfilepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:services\\getfilepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\views\\extras\\confirmationboxview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:views\\extras\\confirmationboxview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|d:\\programming projects\\flashcards app\\flashcards\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73008FE9-A5B1-436D-8463-D05821B1ECC0}|FlashcardsMVP.csproj|solutionrelative:services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Sample.fcs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Flashcards\\Sample.fcs",
+              "RelativeDocumentMoniker": "Flashcards\\Sample.fcs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Flashcards\\Sample.fcs",
+              "RelativeToolTip": "Flashcards\\Sample.fcs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFtSURBVDhPY6AI/P//H8qiEsjMTK//9evH/1\u002B/fkLwz5//nz55\u002BH/h6iW7hGSk2aDKUAATlAYDAQFBBhZWNgZWGGZjY2BhYWUw19ZyXTC1f4ecjAQzVCkcoBgAAoxQGg4YGRkO7NvL8P7tW8f0tOSFUFE4QDEAohnVCEFBIQYxSXkGDk5uBmVltWioMHZQWVleDwxYDPDv3z8QCaT/YoQ6mhcYGb5\u002B/cqwatUqhosXLzLcunWTYcWKFQxPnjxhWLp0KcPv33\u002Bg6hAAwwuvXr1imDVrFlhTcXEJg5SUFENbWxvDo0ePgQHKAlGIBDACEehWBh4eHgZeXl5gTLAwSEpKMqSkJDPs378faOhjqCoEwDBSRESEobq6msHU1ISBiYmRYffuXQyqqmoMkZERDDIyslBVOEBVZQU0EEGBBqNhGByM\u002BAMRLAsmYFEJomEYO0CR0dHWtvfx9XFgBCYebODf378MnV3djVDuoAAMDADv9KTLQutxKQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-12-29T22:50:13.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeckParser.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\DeckParser.cs",
+              "RelativeDocumentMoniker": "Models\\DeckParser.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\DeckParser.cs",
+              "RelativeToolTip": "Models\\DeckParser.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwDUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:34:38.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Deck.cs",
+              "RelativeDocumentMoniker": "Models\\Deck.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Models\\Deck.cs",
+              "RelativeToolTip": "Models\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:32:18.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyFlashcardsViewModel.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MyFlashcardsViewModel.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\MyFlashcardsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MyFlashcardsViewModel.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAEwFEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:07:23.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeckManager.cs",
+              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\DeckManager.cs",
+              "RelativeDocumentMoniker": "Services\\DeckManager.cs",
+              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\DeckManager.cs",
+              "RelativeToolTip": "Services\\DeckManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T21:46:27.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GetFilePath.cs",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\GetFilePath.cs",
               "RelativeDocumentMoniker": "Services\\GetFilePath.cs",
@@ -74,97 +143,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DeckInformationView.xaml",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\DeckInformationView.xaml",
               "RelativeDocumentMoniker": "Views\\DeckInformationView.xaml",
               "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\DeckInformationView.xaml",
               "RelativeToolTip": "Views\\DeckInformationView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-28T19:00:04.324Z"
+              "WhenOpened": "2024-12-28T19:00:04.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConfirmationBoxView.xaml",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\Extras\\ConfirmationBoxView.xaml",
-              "RelativeDocumentMoniker": "Views\\Extras\\ConfirmationBoxView.xaml",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\Extras\\ConfirmationBoxView.xaml",
-              "RelativeToolTip": "Views\\Extras\\ConfirmationBoxView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-29T00:30:20.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DeckInformationViewModel.cs",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\DeckInformationViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\DeckInformationViewModel.cs",
               "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\DeckInformationViewModel.cs",
               "RelativeToolTip": "ViewModels\\DeckInformationViewModel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwBsAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T23:26:55.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DeckManagerViewModel.cs",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\DeckManagerViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\DeckManagerViewModel.cs",
               "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\DeckManagerViewModel.cs",
               "RelativeToolTip": "ViewModels\\DeckManagerViewModel.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAkwLYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAIA6wFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T20:35:23.37Z"
+              "WhenOpened": "2024-12-28T20:35:23.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "DeckManagerView.xaml",
               "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\DeckManagerView.xaml",
               "RelativeDocumentMoniker": "Views\\DeckManagerView.xaml",
               "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\DeckManagerView.xaml",
               "RelativeToolTip": "Views\\DeckManagerView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-28T20:24:40.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfirmationBoxViewModel.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\Extras\\ConfirmationBoxViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Extras\\ConfirmationBoxViewModel.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\ViewModels\\Extras\\ConfirmationBoxViewModel.cs",
-              "RelativeToolTip": "ViewModels\\Extras\\ConfirmationBoxViewModel.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwEYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:39:36.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConfirmationBoxView.xaml.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\Extras\\ConfirmationBoxView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Extras\\ConfirmationBoxView.xaml.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Views\\Extras\\ConfirmationBoxView.xaml.cs",
-              "RelativeToolTip": "Views\\Extras\\ConfirmationBoxView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:36:36.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DialogService.cs",
-              "DocumentMoniker": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\DialogService.cs",
-              "RelativeDocumentMoniker": "Services\\DialogService.cs",
-              "ToolTip": "D:\\Programming Projects\\Flashcards APP\\Flashcards\\Services\\DialogService.cs",
-              "RelativeToolTip": "Services\\DialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:43:16.947Z"
+              "WhenOpened": "2024-12-28T20:24:40.69Z",
+              "EditorCaption": ""
             }
           ]
         }
