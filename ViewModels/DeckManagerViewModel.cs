@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using FlashcardsMVP.Services;
 using FlashcardsMVP.Views;
@@ -19,6 +20,8 @@ namespace FlashcardsMVP.ViewModels
         public ICommand GoBackCommand { get; }
         public ICommand AddCardCommand { get; }
         public ICommand RemoveCardCommand { get; }
+
+        public ICommand DeleteDeckCommand { get; }
 
         public DeckManagerViewModel(Deck deck, MyFlashcardsViewModel parentViewModel, bool isEditMode = false)
         {
@@ -43,6 +46,7 @@ namespace FlashcardsMVP.ViewModels
             GoBackCommand = new RelayCommand(GoBack);
             AddCardCommand = new RelayCommand(AddCard);
             RemoveCardCommand = new RelayCommand(RemoveCard);
+            DeleteDeckCommand = new RelayCommand(DeleteDeck);
         }
 
         public string DeckName
@@ -77,9 +81,9 @@ namespace FlashcardsMVP.ViewModels
                 MessageBox.Show("Deck name cannot be empty.");
                 return;
             }
-
+            var filePathService = new GetFilePath();
             // Create or overwrite the .fcs file based on whether we are editing or creating
-            string deckFilePath = GetDeckFilePath(DeckName);
+            string deckFilePath = filePathService.GetDeckFilePath(DeckName);
             if (_isEditMode && File.Exists(deckFilePath))
             {
                 // Overwrite the existing deck file if in edit mode
@@ -145,10 +149,10 @@ namespace FlashcardsMVP.ViewModels
             }
         }
 
-        private string GetDeckFilePath(string deckName)
+        private void DeleteDeck()
         {
-            string resourcesPath = Path.Combine(Directory.GetCurrentDirectory(), "Flashcards");
-            return Path.Combine(resourcesPath, $"{deckName}.fcs");
+            var deckManager = new DeckManager();
+            deckManager.DeleteDeck(DeckName);
         }
 
         private void CreateDeckFile(string deckFilePath)

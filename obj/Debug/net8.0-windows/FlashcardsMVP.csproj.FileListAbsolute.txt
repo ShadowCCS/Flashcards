@@ -28,3 +28,5 @@ D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckManagerView.baml
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckCreationMethodView.g.cs
 D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\DeckCreationMethodView.baml
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\Extras\ConfirmationBoxView.g.cs
+D:\Programming Projects\Flashcards APP\Flashcards\obj\Debug\net8.0-windows\Views\Extras\ConfirmationBoxView.baml

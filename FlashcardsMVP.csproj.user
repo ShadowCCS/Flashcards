@@ -16,6 +16,9 @@
     <Compile Update="Views\DeckManagerView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Extras\ConfirmationBoxView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\MyFlashcards.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\DeckManagerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Extras\ConfirmationBoxView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MyFlashcards.xaml">

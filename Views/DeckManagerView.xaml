@@ -40,7 +40,7 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
                 <Button Content="{Binding SaveButtonText}" Margin="5" Background="#448E64" Width="70" Height="25" Command="{Binding SaveCommand}"/>
                 <Button Content="Cancle" Margin="5" Width="70" Height="25" Command="{Binding GoBackCommand}"/>
-                <Button Content="Delete Deck" Margin="5" Background="#C74A4C" Width="70" Height="25"/>
+                <Button Content="Delete Deck" Margin="5" Background="#C74A4C" Width="70" Height="25" Command="{Binding DeleteDeckCommand}"/>
 
             </StackPanel>
         </StackPanel>

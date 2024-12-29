@@ -10,5 +10,5 @@ Content:
     DeckName: "Sample"
     Icon: <Base64>
     Cards:
-        ["Front","Back"],
-        ["New Front","New Back"],
+        ["Front1",Back1"],
+        ["Front2",Back2"],

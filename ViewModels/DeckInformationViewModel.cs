@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using FlashcardsMVP.Services;
 using FlashcardsMVP.ViewModels;
 using FlashcardsMVP.Views;
+using FlashcardsMVP.Logs;
 
 namespace FlashcardsMVP.ViewModels
 {
@@ -15,6 +19,7 @@ namespace FlashcardsMVP.ViewModels
 
         // Command for editing the deck
         public ICommand EditDeckCommand { get; }
+        public ICommand DeleteDeckCommand { get; }
 
         // Constructor
         public DeckInformationViewModel(Deck deck, MyFlashcardsViewModel parentViewModel)
@@ -26,9 +31,11 @@ namespace FlashcardsMVP.ViewModels
 
             _parentViewModel = parentViewModel;
 
-            // Initialize the EditDeckCommand and bind it to the EditDeck method
             EditDeckCommand = new RelayCommand(EditDeck);
+            DeleteDeckCommand = new RelayCommand(DeleteDeck);
+
         }
+
 
         // Properties
         public string DeckName { get; }
@@ -47,5 +54,13 @@ namespace FlashcardsMVP.ViewModels
             // Switch to DeckManagerView
             _parentViewModel.CurrentView = deckManagerView;
         }
+
+
+        private void DeleteDeck()
+        {
+            var deckManager = new DeckManager();
+            deckManager.DeleteDeck(_deck.Name);
+        }
     }
+    
 }
