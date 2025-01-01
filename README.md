@@ -24,3 +24,7 @@ Flashcards utilizes a custom file format designed to efficiently store applicati
 
 - Windows 10 or later
 - .NET 8 or later installed on your machine
+
+## Development Documment
+Check out the notion page for roadmap
+https://luxuriant-jumpsuit-b0a.notion.site/Flashcards-15fcd06aa221801fbd69f8cf20431d6c?pvs=4
